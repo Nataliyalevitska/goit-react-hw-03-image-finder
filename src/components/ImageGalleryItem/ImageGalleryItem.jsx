@@ -11,6 +11,7 @@ export const ImageGalleryItem = ({ large, small, alt, onClick }) => {
 };
 
 ImageGalleryItem.propTypes = {
+  
   large: PropTypes.string.isRequired,
   small: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
